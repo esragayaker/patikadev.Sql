@@ -2,6 +2,6 @@
 --ile biten en uzun (length) 5 filmi sıralayınız.
 
 SELECT * FROM film
-WHERE title ILIKE '%n' 
+WHERE title LIKE '%n' 
 ORDER BY length DESC
 LIMIT 5;
